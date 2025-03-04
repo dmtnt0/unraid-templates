@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>kavitabot</Name>
+  <Repository>dmtnt/kavitabot:latest</Repository>
+  <Registry>https://hub.docker.com/r/dmtnt/kavitabot</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/dmtnt0/kavitabot</Project>
+  <Overview>This is a Discord bot that users in your discord server can use to interact with your private Kavita server. It's primary purpose is to allow for user requested Kavita invitiations through Discord. More functionality may come later.&#xD;
+&#xD;
+There are various ways to set the permissions of your bot and you should see what works with the least permissions, but if you'd rather keep it simple:&#xD;
+- Name &amp;amp; customize the bot&#xD;
+- Enable the three "Presence Gateway Intents" under "Bot"&#xD;
+- Click Oauth2 and enable "Bot" in the "OAuth2 URL Generator" section&#xD;
+- Use "Generated URL" at the bottom of the page to invite your bot to the server&#xD;
+</Overview>
+  <Category>Tools: MediaApp:Books Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/dmtnt0/kavitabot/blob/main/dmtnt-logo.png?raw=trueo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1741131257</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="KAVITA_OPDS_URL" Target="KAVITA_OPDS_URL" Default="" Mode="" Description="Enter your Kavita OPDS URL. Found at: Settings &amp;gt; API Key / OPDS &amp;gt; OPDS URL " Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="DISCORD_BOT_TKN" Target="DISCORD_BOT_TKN" Default="" Mode="" Description="Enter your Discord bot token." Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="DISCORD_SVR_ID" Target="DISCORD_SVR_ID" Default="" Mode="" Description="Enter your Discord server ID. This is used to force update the commands on startup." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DISCORD_CHAN_ID" Target="DISCORD_CHAN_ID" Default="" Mode="" Description="(optional) Enter your Discord chanel ID to restrict the commands to a specific channel." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DISCORD_ROLE_ID" Target="DISCORD_ROLE_ID" Default="" Mode="" Description="(optional) Enter your Discord role ID to restrict the commands to a specific role." Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
