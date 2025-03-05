@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/187749-support-dmtnt-kavitabot/</Support>
   <Project>https://github.com/dmtnt0/kavitabot</Project>
   <Overview>This is a Discord bot that users in your discord server can use to interact with your private Kavita server. It's primary purpose is to allow for user requested Kavita invitiations through Discord. More functionality may come later.&#xD;
 &#xD;
